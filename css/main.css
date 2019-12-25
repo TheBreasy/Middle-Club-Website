@@ -1,0 +1,498 @@
+h1,
+h2,
+h3 {
+    font-family: 'Girassol', cursive;
+    text-align: center;
+    margin: 0;
+    color: #171717;
+}
+
+h2 {
+    font-size: 1.8em;
+    padding: 1em 0 0.5em 0;
+}
+
+h3 {
+    font-size: 1.6em;
+}
+
+p {
+    letter-spacing: 0.05em;
+    line-height: 1.5em;
+}
+
+p,
+a,
+label,
+select,
+option,
+textarea,
+input, span {
+    font-family: 'Titillium Web', sans-serif;
+    color: #171717;
+}
+
+span {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #171717;
+}
+
+.logo {
+    display: block;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logoImg {
+    width: 100px;
+    height: 100px;
+}
+
+#hamburger {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+}
+
+#hamburger img {
+    width: 25px;
+    height: 25px;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 1.5em;
+    background-image: url("../images/arrow.svg");
+    background-repeat: no-repeat;
+    background-position: 94% center;
+    background-size: 1em;
+    text-transform: uppercase;
+    transition: .3s ease;
+}
+
+nav a:hover {
+    color: #323639;
+    transition: .3s ease;
+}
+
+nav a::after {
+    background-color: #323639;
+    content: "";
+    display: block;
+    height: 1px;
+    position: relative;
+    bottom: 42px;
+}
+
+.header {
+    background-image: url("../images/lake.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 9em 1em;
+    height: 250px;
+}
+
+.header p {
+    font-size: 1.3em;
+}
+
+.header p,
+h1 {
+    color: #ffffff;
+    text-align: center;
+    margin: 0.5em 0;
+}
+
+#intro h3 {
+    padding-top: 1em;
+}
+
+.btn-black {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #171717;
+    color: #ffffff;
+    padding: 1em;
+    margin: 1em 0;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+}
+
+.btn-black:hover {
+    background-color: #ffffff;
+    color: #171717;
+    box-shadow: 0 0 0 1px #171717 inset;
+    transition: 0.3s ease;
+}
+
+.btn-white {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #171717;
+    padding: 1em;
+    margin: 1em 0;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+}
+
+.btn-white:hover {
+    background-color: #171717;
+    color: #ffffff;
+    box-shadow: 0 0 0 1px #ffffff inset;
+    transition: 0.3s ease;
+}
+
+.layout {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2em;
+}
+
+.center {
+    text-align: center;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    fill: #ffffff;
+}
+
+img {
+    width: 300px;
+    height: 250px;
+}
+
+video {
+    width: 300px;
+}
+
+#rooms img {
+    margin-top: 2em;
+}
+
+#book p {
+    display: inline-block;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.checkbox {
+    display: inline-block;
+    width: 20px;
+    margin-left: 0.5em;
+}
+
+#aantalPersonen {
+    margin-left: 0.5em;
+}
+
+.input {
+    border: none;
+    border-bottom: 2px solid #d3d3d3;
+    width: 100%;
+    transition: .3s ease;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.input:focus {
+    outline: 0;
+    border-bottom: 2px solid #171717;
+    transition: .3s ease;
+}
+
+.input-btn {
+    border: none;
+    cursor: pointer;
+}
+
+#textarea {
+    resize: none;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #d3d3d3;
+    transition: .3s ease;
+    margin: 1em 0;
+    padding: 0;
+}
+
+#textarea:focus {
+    outline: 0;
+    border-bottom: 2px solid #171717;
+    transition: .3s ease;
+}
+
+.skewup {
+    transform: skewY(-2deg);
+}
+
+.skewdown {
+    transform: skewY(2deg);
+}
+
+.advantages {
+    padding-left: 2em;
+    background-image: url("../images/check.svg");
+    background-repeat: no-repeat;
+    background-size: 20px;
+    width: 250px;
+    margin-top: 2em;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+footer {
+    background-color: #171717;
+    height: 350px;
+}
+
+footer a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 2em;
+    transition: .3s ease;
+}
+
+footer a:hover {
+    color: #323639;
+    transition: .3s ease;
+}
+
+#footerLogo {
+    display: block;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg-black {
+    background-color: #171717;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.text-black {
+    color: #171717;
+}
+
+.mx-bottom {
+    margin-bottom: 1em;
+}
+
+.display {
+    display: block;
+}
+
+.no-display {
+    display: none;
+}
+
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+#moodboard img {
+    float: left;
+    width: 50%;
+    height: 50%;
+}
+
+
+
+@media (min-width: 600px) {
+    video {
+        width: 500px;
+    }
+}
+
+@media (min-width: 740px) {
+    img {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media (min-width: 880px) {
+    .skewdown,
+    .skewup {
+        transform: none;
+    }
+    #hamburgerIcon {
+        display: none;
+    }
+    .logo {
+        float: left;
+        padding: 0 2em;
+        display: flex;
+    }
+
+    #nav {
+        display: inline-block;
+    }
+    nav {
+        display: block;
+        float: right;
+    }
+    nav a {
+        display: inline-block;
+        background-image: none;
+        padding: 2.5em 1em;
+    }
+    nav a::after {
+        background-color: #323639;
+        content: "";
+        display: none;
+        height: 1px;
+        position: relative;
+        bottom: 42px;
+    }
+    .navbar::after {
+        display: block;
+        clear: both;
+        content: "";
+    }
+    .header p {
+        padding-top: 3em;
+    }
+    .bg-black {
+        background-color: white;
+    }
+    .text-white {
+        color: #171717;
+    }
+    .btn-white {
+        display: inline-block;
+        text-decoration: none;
+        background-color: #171717;
+        color: #ffffff;
+        padding: 1em;
+        margin: 1em 0;
+        text-transform: uppercase;
+        transition: 0.3s ease;
+    }
+    .btn-white:hover {
+        background-color: #ffffff;
+        color: #171717;
+        box-shadow: 0 0 0 1px #171717 inset;
+        transition: 0.3s ease;
+    }
+    #intro::after {
+        display: block;
+        clear: both;
+        content: "";
+    }
+    #intro ul {
+        float: left;
+        width: 34%;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    #intro li {
+        display: inline-block;
+    }
+    video {
+        width: 700px;
+    }
+
+    #book li {
+        width: 40%;
+        display: inline-block;
+        margin: 4%;
+    }
+}
+
+@media (min-width: 1000px) {
+    .navbar, #intro, #book, footer {
+        padding: 0 4em;
+    }
+
+    .header {
+        padding: 9em 4em;
+    }
+
+    #about, #rooms {
+        padding: 2em 4em;
+    }
+
+    .article-right {
+        float: right;
+        width: 50%;
+    }
+
+    .float-left {
+        float: left;
+        width: 40%;
+    }
+
+    .article-left {
+        float: left;
+        width: 50%;
+    }
+
+    .float-right {
+        float: right;
+        width: 40%;
+    }
+
+}
+
+@media (min-width: 1300px) {
+    .article-right {
+        float: right;
+        width: 40%;
+    }
+
+    .float-left {
+        float: left;
+        width: 60%;
+    }
+
+    .article-left {
+        float: left;
+        width: 40%;
+    }
+
+    .float-right {
+        float: right;
+        width: 60%;
+    }
+}
+
+@media (min-width: 1700px) {
+    .header p, h1 {
+        color: #171717;
+    }
+}
